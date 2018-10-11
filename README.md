@@ -22,4 +22,19 @@
              app:shadowRadius="4dp"/>
  *
  *   @author liqiang10
+
+
+     (5) 远程依赖
+        (1)
+        	allprojects {
+        		repositories {
+        			...
+        			maven { url 'https://jitpack.io' }
+        		}
+        	}
+        (2)
+            dependencies {
+                    implementation 'com.github.daqiang5566:shadowView:Tag'
+            }
+
  * **/
