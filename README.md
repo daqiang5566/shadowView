@@ -22,8 +22,8 @@
              app:shadowRadius="4dp"/>
 
      (5) 远程依赖
-        (1)
         
+        (1)
         	allprojects {
         		repositories {
         			...
@@ -33,7 +33,6 @@
           
         (2)
             dependencies {
-                    implementation 'com.github.daqiang5566:shadowView:Tag'
+                    implementation 'com.github.daqiang5566:shadowView:1.0.0'
             }
-
  * **/
